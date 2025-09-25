@@ -103,11 +103,11 @@ Partial Class frmDangNhap
         Me.Label3.Text = "HỆ THỐNG ĐĂNG NHẬP"
         Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Form1
+        'frmDangNhap
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(454, 283)
+        Me.ClientSize = New System.Drawing.Size(454, 297)
         Me.Controls.Add(Me.btnQuenMK)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
@@ -115,7 +115,7 @@ Partial Class frmDangNhap
         Me.Controls.Add(Me.txtTenDangNhap)
         Me.Controls.Add(Me.btnDangNhap)
         Me.Controls.Add(Me.Label3)
-        Me.Name = "Form1"
+        Me.Name = "frmDangNhap"
         Me.Text = "Form1"
         Me.ResumeLayout(False)
         Me.PerformLayout()

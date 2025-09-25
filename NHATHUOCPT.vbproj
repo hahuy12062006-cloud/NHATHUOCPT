@@ -109,6 +109,24 @@
     <Compile Include="frmNhapHang.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmTimThuoc.Designer.vb">
+      <DependentUpon>frmTimThuoc.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTimThuoc.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTimThuocNhap.Designer.vb">
+      <DependentUpon>frmTimThuocNhap.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTimThuocNhap.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmXemHoaDonDaNhap.Designer.vb">
+      <DependentUpon>frmXemHoaDonDaNhap.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmXemHoaDonDaNhap.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -126,11 +144,32 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="frmBanHang.resx">
+      <DependentUpon>frmBanHang.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmDangNhap.resx">
       <DependentUpon>frmDangNhap.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmHoaDon.resx">
+      <DependentUpon>frmHoaDon.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNhaCungCap.resx">
+      <DependentUpon>frmNhaCungCap.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNhapHang.resx">
+      <DependentUpon>frmNhapHang.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTimThuoc.resx">
+      <DependentUpon>frmTimThuoc.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTimThuocNhap.resx">
+      <DependentUpon>frmTimThuocNhap.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmXemHoaDonDaNhap.resx">
+      <DependentUpon>frmXemHoaDonDaNhap.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
