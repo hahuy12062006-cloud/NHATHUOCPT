@@ -17,7 +17,6 @@ Public Class frmNhaCungCap
                 conn.Open()
                 adapter.Fill(dt)
                 dgvNhaCungCap.DataSource = dt
-                ' Clear the other grids initially
                 dgvSoLuongTon.DataSource = Nothing
                 dgvHoaDon.DataSource = Nothing
             Catch ex As Exception
@@ -27,7 +26,6 @@ Public Class frmNhaCungCap
     End Sub
 
     Private Sub dgvNhaCungCap_CellClick(sender As Object, e As DataGridViewCellEventArgs) Handles dgvNhaCungCap.CellClick
-        ' Make sure a valid row is clicked
         If e.RowIndex >= 0 Then
             Dim row As DataGridViewRow = dgvNhaCungCap.Rows(e.RowIndex)
             Dim maNhaCungCap As Integer = CInt(row.Cells("MaNhaCungCap").Value)

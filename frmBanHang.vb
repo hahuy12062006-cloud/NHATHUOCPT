@@ -90,7 +90,6 @@ Public Class frmBanHang
         End If
     End Sub
 
-    ' RESET FORM
     Private Sub ResetFormForNewSale()
         ClearCurrentCartAndInputs()
         If Not IsNothing(btnIN) Then
@@ -98,8 +97,6 @@ Public Class frmBanHang
         End If
         currentMaBanHangToPrint = 0
     End Sub
-
-    ' THÊM THUỐC
     Public Sub AddSelectedDrugToCart(maThuoc As Integer, tenThuoc As String, donGiaBan As Decimal, soLuongTonKho As Integer)
         ' CHECK THUỐC ĐÃ CÓ CHƯA
         Dim existingRow As DataRow = dtChiTietHoaDon.Select($"MaThuoc = {maThuoc}").FirstOrDefault()
